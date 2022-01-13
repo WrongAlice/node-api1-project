@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "server": "nodemon ./index.js",
     "test": "cross-env NODE_ENV=testing jest --verbose --runInBand"
   },
   "devDependencies": {
@@ -19,6 +20,7 @@
     "url": "git+https://github.com/BloomInstituteOfTechnology/node-api1-project.git"
   },
   "dependencies": {
+    "express": "^4.17.2",
     "nanoid": "^3.1.30"
   }
 }
